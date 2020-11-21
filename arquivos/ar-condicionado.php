@@ -2,7 +2,6 @@
 
 require_once '../model/ArCondicionado.php';
 require_once '../model/Temperatura.php';
-$conn = include_once 'db/connect.php';
 session_start();
 
 $ar = file_get_contents('json/ar-condicionado.json');
